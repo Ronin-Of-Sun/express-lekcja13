@@ -1,0 +1,28 @@
+<div id="header">
+    <a href="../upload">UPLOAD</a>
+    <a href="../filemanager">FILEMANAGER</a>
+    <a href="../info">INFO</a>
+</div>
+<div class="wrapper">
+    <div id="menu">INFORMATION</div>
+    <div id="main">
+        {{#if id}}
+        <p>ID: {{id}}</p>
+        {{/if}}
+        {{#if name}}
+        <p>NAME: {{name}}</p>
+        {{/if}}
+        {{#if path}}
+        <p>PATH: {{path}}</p>
+        {{/if}}
+        {{#if size}}
+        <p>SIZE: {{size}}</p>
+        {{/if}}
+        {{#if type}}
+        <p>TYPE: {{type}}</p>
+        {{/if}}
+        {{#if savedate}}
+        <p>SAVEDATE: {{savedate}}</p>
+        {{/if}}
+    </div>
+</div>
